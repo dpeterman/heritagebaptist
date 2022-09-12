@@ -32,7 +32,7 @@ const NavLinks = styled.ul`
     padding: 8px;
     border-radius: 4px;
     color: ${Colors.primary};
-    transition: all 200ms linear;
+    transition: background 200ms linear;
 
     &::selection {
       background: none;
@@ -108,7 +108,7 @@ const Button = styled.button`
   padding: 24px 32px;
   color: ${Colors.primary};
   font-size: 18px;
-  transition: all 200ms linear;
+  transition: background 200ms linear;
 
   &:hover {
     background: ${Colors.primary_light};
